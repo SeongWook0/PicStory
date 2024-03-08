@@ -1,0 +1,85 @@
+.loginMain {
+  height: 750px;
+  background-color: white;
+  display: flex; 
+  align-items: center; 
+  flex-direction: column; 
+}
+
+.loginBox {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #ebebeb;
+  padding: 30px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px 0px rgba(184, 184, 184, 0.789);
+}
+
+.loginBox p {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 5px;
+}
+
+.l-box {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+
+.l-box a {
+  margin-left: 5px;
+}
+
+.input-layer {
+  display: flex;
+  flex-direction: column; 
+}
+
+#l-loginBtn {
+  float: right;
+  border: 0px;
+  background: #3c64e7;
+  border-radius: 30px;
+  margin: 30px 5px;
+  padding: 20px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.a-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; 
+}
+
+.a-container a {
+  text-decoration: none;
+  color: #1c3e9e;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.outlined-basic {
+  margin: 5px;
+  width: 280px;
+  color: white;
+  font-size: 18px;
+}
+
+.connect {
+  display: flex;
+  flex-direction: column; /* 자식 요소들을 수직으로 정렬하기 위해 column으로 설정 */
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  position: relative; 
+}
+
+#naverLogin {
+  font-family: NotoSansKRLight;
+  font-weight: bolder;
+  margin-top: 10px;
+}

@@ -1,0 +1,26 @@
+#footerContainer {
+  background-color: rgb(70, 70, 70);
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+#footerContent {
+  margin: auto 0;
+}
+
+.footerUl .footerLi::after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  margin: 9px 12px 0;
+  background-color: #ddd;
+  vertical-align: top;
+}
+
+#end::after{
+  display: none;
+
+}

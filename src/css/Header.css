@@ -1,0 +1,39 @@
+#header-container {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+#logo {
+  margin-left: 350px;
+}
+#text1 {
+  display: block;
+  margin-right: 100px;
+}
+#loginContainer {
+  margin: auto 0;
+  margin-right: 350px;
+  position: relative;
+  margin-top: 40px;
+}
+.loginBtn11 {
+  font-size: 15px;
+  text-decoration: none;
+  color: inherit;
+  margin-left: 15px;
+}
+.menuBtn{
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.menuBtn:hover{
+  cursor: pointer;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
